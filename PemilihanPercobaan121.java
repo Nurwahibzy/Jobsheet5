@@ -4,10 +4,9 @@ public class PemilihanPercobaan121 {
         Scanner input21 = new Scanner(System.in);
         System.out.print("Masukkan angka: ");
         int angka = input21.nextInt();
-        if (angka % 2 == 0)
-        System.out.println("Angka " + angka + " bilangan genap");
-        else 
-        System.out.println("Angka " + angka + " bilangan ganjil");
-
+        String hasil;
+        hasil =  (angka % 2 == 0) ? " bilangan ganjil" : " bilangan genap";
+        System.out.println("Angka " + angka + hasil);
+       
     }
 }
