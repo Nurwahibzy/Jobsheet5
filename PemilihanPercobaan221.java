@@ -50,6 +50,7 @@ public class PemilihanPercobaan221 {
             nilaiSetara = 00;
             kualifikasi = "error";
         }
+        // mencetak variabel yang ada
         System.out.println("Nilai angka : " + total);
         System.out.println("Nilai huruf : " + nilaiHuruf);
         System.out.println("Nilai setara : " + nilaiSetara);
