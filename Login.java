@@ -10,7 +10,7 @@ public class Login {
         userName = input21.nextLine();
         System.out.print("Masukkan Password : ");
         password = input21.nextLine();
-        String hasil = (userName == user1 && password == pass1) ? "Login berhasil" : "Login gagal";
+        String hasil = (userName.equals(user1)&& password.equals(pass1) ) ? "Login berhasil" : "Login gagal";
         System.out.println(hasil);
 
 
